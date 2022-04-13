@@ -14,20 +14,20 @@ export class Header extends Component<Props> {
       <Row>
         <Menu mode="horizontal">
           <Menu.Item>
-            <Link to="/docs/template/get-started/introduction/">
+            <Link to="/">
               {siteTitle}
             </Link>
           </Menu.Item>
           <Menu.Item icon={<GithubOutlined />}>
             <a
-              href="https://github.com/jannikbuschke/gatsby-antd-docs"
+              href="https://github.com/RDCEP/energy-maps"
               target="_blank"
             >
               GitHub
             </a>
           </Menu.Item>
           <Menu.Item icon={<TwitterOutlined />}>
-            <a href="https://twitter.com/jannikbuschke" target="_blank">
+            <a href="https://mobile.twitter.com/rdceporg" target="_blank">
               Twitter
             </a>
           </Menu.Item>

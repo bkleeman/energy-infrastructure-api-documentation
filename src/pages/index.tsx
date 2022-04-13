@@ -13,13 +13,13 @@ const IndexPage = () => {
           fontWeight: 'bold',
         }}
       >
-        Gatsby Ant Design Docs Boilerplate
+        Energy Infrastructure API
       </p>
-      <h2>A gatsby starter to create documentation websites</h2>
+      <h2>A public API containing data on energy infrastructure throughout the United States</h2>
       <p>
-        This is a fork of{' '}
-        <a href="https://github.com/cvluca/gatsby-starter-markdown">
-          https://github.com/cvluca/gatsby-starter-markdown
+        Currently used to power the Center for Robust Decision-making on Climate and Energy Policy's {' '}
+        <a href="http://us.infrastructure.rdcep.org/#">
+           US Energy Infrastructure Visualization.
         </a>
       </p>
       <br />
@@ -27,7 +27,7 @@ const IndexPage = () => {
         <Button
           size="large"
           icon={<TwitterOutlined />}
-          href="https://twitter.com/jannikbuschke"
+          href="https://mobile.twitter.com/rdceporg"
           target="_blank"
         >
           Twitter
@@ -35,7 +35,7 @@ const IndexPage = () => {
         <Button
           size="large"
           icon={<GithubOutlined />}
-          href="https://github.com/jannikbuschke/gatsby-antd-docs"
+          href="https://github.com/bkleeman/energy-infrastructure-api"
           target="_blank"
         >
           Github

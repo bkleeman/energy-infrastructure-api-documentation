@@ -1,61 +1,16 @@
 ---
 ---
 
-<h1 align="center">
-  Introduction
-</h1>
+# Energy Infrastructure API
 
-# Gatsby Ant-Design Documentation Starter
+This site contains technical documentation for RDCEP's Energy Infrastructure API, currently being used to power the [US Energy Infrastructure Visualization](http://us.infrastructure.rdcep.org/). <br/>Here you can find endpoints, examples, and anything else you need to know.
 
-Forked from https://github.com/cvluca/gatsby-starter-markdown.
+## Getting started
 
-This starter is boilerplate for (technical) documentation websites optionally accomponied by a blog (you can use it forever you want of course).
+Visit http://127.0.0.1:5000/api/v0.1.0/infrastructure/ for a list of endpoints.
 
-# Getting started
-
-```
-npm install gatsby -g
-gatsby new my-docs https://github.com/jannikbuschke/gatsby-antd-docs
-cd my-docs
-npm run start
-```
-
-Visit http://localhost:8000.
-
-Edit files in `/content/docs` and see live updates.
-
-# Features
-
-- [x] Ant Design
-- [x] Typescript
-- [x] Markdown
-- [x] MDX
-- [x] Syntax highlighting
-
-# Roadmap
-
-- [x] Add typescript
-- [x] Remove Redux
-- [x] General simplifications
-- [x] Add mdx
-- [x] Add syntax highlighting with prismjs
-- [x] Improve Header UI
-- [ ] Fix menu item links not showing active state
-- [ ] Blog feature / second content type
-- [ ] Improved typings
-- [ ] Improved responsiveness
-- [ ] Add Search
-
-# Hosting
-
-In order to host the site the **sites path** needs to be put into gatsby-config.js export object on to the property _pathPrefix_. Then run
-
-```
-npm run build
-```
-
-and copy the content of the public folder to the webspace.
+View some of our [code examples](./code-examples) for tips on how to get started with your use case.
 
 # License
 
-MIT
+TBA
