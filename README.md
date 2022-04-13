@@ -1,41 +1,10 @@
-sample: https://www.jannikbuschke.de/gatsby-antd-docs/
+# Energy Infrastructure API Documentation
+This is a website to document the [Energy Infrastructure API](https://github.com/bkleeman/energy-infrastructure-api).
 
-# Gatsby Ant-Design Documentation Starter
-
-Forked from https://github.com/cvluca/gatsby-starter-markdown.
-
-This starter is boilerplate for (technical) documentation websites optionally accompanied by a blog (you can use it forever you want of course).
-
-# Getting started
-
-```bash
-npm install gatsby -g
-gatsby new my-docs https://github.com/jannikbuschke/gatsby-antd-docs
-cd my-docs
-npm install
-npm run start
-```
-
-Visit `http://localhost:8000`.
+Built with GatsbyJS and this starter: https://www.jannikbuschke.de/gatsby-antd-docs/
 
 Edit files in `/content/docs` and see live updates.
-
-# Features
-
-- [x] Ant Design
-- [x] Typescript
-- [x] Markdown
-- [x] MDX
-- [x] Syntax highlighting
-- [x] Latex
-
-# Roadmap
-
-- [ ] Blog feature / second content type
-- [ ] Improved typings
-- [ ] Improved responsiveness
-- [ ] Add Search
-- [ ] svg intergration for excalidraw
+Sidebar items are added by adding a directory to `content/docs/template` and pages are created by adding a markdown file to that directory.
 
 # Hosting
 
